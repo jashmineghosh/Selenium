@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Dropdown {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver", "C:\\jas-hadoop\\selenium\\chromedriver_win32\\chromedriver.exe");
@@ -20,16 +20,25 @@ public class Dropdown {
 		driver.get("http://spicejet.com/");
 		//driver.manage().window().maximize() ;
 		//code for dropdown
-		Select s = new Select(driver.findElement(By.cssSelector("select[id='ctl00_mainContent_ddl_Adult']")));
-		s.selectByIndex(1);
-		s.selectByValue("4");
-		s.selectByVisibleText("9");
-		driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_originStation1_CTXT']")).click();
-		driver.findElement(By.xpath("//a[@value='DEL']")).click();
-		WebDriverWait wait=new WebDriverWait(driver, 60);
-				
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[@value='PAT'])[2]")));
-		driver.findElement(By.xpath("(//a[@value='PAT'])[2]")).click();
+//		Select s = new Select(driver.findElement(By.cssSelector("select[id='ctl00_mainContent_ddl_Adult']")));
+//		s.selectByIndex(1);
+//		s.selectByValue("4");
+//		s.selectByVisibleText("9");
+		
+		driver.findElement(By.id("divpaxinfo")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[@id='divAdult']/div[2]/span[3]")).click();
+		driver.findElement(By.xpath("//div[@id='divAdult']/div[2]/span[3]")).click();
+		driver.findElement(By.xpath("//div[@id='divAdult']/div[2]/span[3]")).click();
+		System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
+		
+		
+//		driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_originStation1_CTXT']")).click();
+//		driver.findElement(By.xpath("//a[@value='DEL']")).click();
+//		WebDriverWait wait=new WebDriverWait(driver, 60);
+//				
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[@value='PAT'])[2]")));
+//		driver.findElement(By.xpath("(//a[@value='PAT'])[2]")).click();
 
 		//code for checking checkboxes
 //		System.out.println(driver.findElement(By.xpath(".//*[@id='ctl00_mainContent_chk_IndArm']")).isSelected());

@@ -251,8 +251,8 @@ public class Demo1 {
 //		driver.findElement(By.linkText("Infinite Scroll")).click();
 //		 driver.manage().timeouts().implicitlyWait(9, TimeUnit.SECONDS);
 //         JavascriptExecutor jse = (JavascriptExecutor)driver;
-//         jse.executeScript("scroll(900, 0)"); //  scroll down
-//         jse.executeScript("scroll(0, 200)"); //  scroll up
+//         jse.executeScript("scroll(900, 0)"); //  scroll up
+//         jse.executeScript("scroll(0, 200)"); //  scroll down vertically
 //         {
 //             
 //             JavascriptExecutor jse1 = (JavascriptExecutor)driver;

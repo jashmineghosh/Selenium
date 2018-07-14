@@ -15,6 +15,7 @@ public class BrowserinvokeChr {
 //		driver.findElement(By.xpath("//div[@id='gb']/div/div/div/div/div[2]/a")).click(); //xpath with parent child traverse, when nothing is unique to be identified for an element, we use this feature
 //			driver.get("https://www.guru99.com/");
 //			System.out.println(driver.getTitle());
+		
 //			System.out.println(driver.getPageSource());
 //			System.out.println(driver.getCurrentUrl());
 //			driver.close();
@@ -26,6 +27,8 @@ public class BrowserinvokeChr {
 		//System.out.println(driver.findElement(By.cssSelector("li[id='tablist1-tab1']/following-sibling::li[3]")).getText());
 		System.out.println(driver.findElement(By.xpath("//*[@id='tablist1-tab1']/parent::ul")).getTagName());
 		System.out.println(driver.findElement(By.xpath("//*[@id='tablist1-tab1']/parent::ul")).getAttribute("role"));
+//		xpath(//*[text()='something'])
+//		css="ul#color li:nth-of-type(2)"  ,css="div[id^='1']" , css="div[id$='6']", css="div[id*='_pattern_']", css="div:contains(_pattern_)"
 	}
 
 }
