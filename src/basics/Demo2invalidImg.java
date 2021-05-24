@@ -1,8 +1,6 @@
 package basics;
 
-
-import java.util.List;
-
+/*
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -11,6 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.List;
 
 public class Demo2invalidImg {
 //this program is to check invalid images in a site
@@ -56,3 +56,4 @@ public class Demo2invalidImg {
 	}
 }
 
+*/

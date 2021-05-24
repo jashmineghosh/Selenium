@@ -1,19 +1,16 @@
 package guru;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-
-import org.apache.poi.ss.usermodel.Workbook;
+/*
+import PageObjects.LoginPG;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import PageObjects.LoginPG;
 import resources.Base;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 
 public class LoginParameterize extends Base{
 public static FileInputStream fis;
@@ -80,3 +77,4 @@ public static XSSFCell cl;
 	
 }
 
+*/

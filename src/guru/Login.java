@@ -1,23 +1,12 @@
 package guru;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+/*
+import PageObjects.LoginPG;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import PageObjects.LoginPG;
 import resources.Base;
+
+import java.io.IOException;
 
 public class Login extends Base{
 	
@@ -65,3 +54,4 @@ public void teardown()
 	}
 
 }
+*/

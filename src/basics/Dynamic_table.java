@@ -1,26 +1,10 @@
 package basics;
 
-import static org.testng.Assert.assertEquals;
-
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Action;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
+
+import java.text.ParseException;
+import java.util.concurrent.TimeUnit;
 
 public class Dynamic_table {
 
@@ -197,7 +181,7 @@ public class Dynamic_table {
 		 }
 		 System.out.println(actual);
 		 ArrayList expected = new ArrayList(); 
-		 expected.add("What’s NetBanking all about?");
+		 expected.add("Whatï¿½s NetBanking all about?");
 		 expected.add("How to register for NetBanking?");
 		 expected.add("Forgot your IPIN (password)?");
 		 expected.add("Third Party Transfer");

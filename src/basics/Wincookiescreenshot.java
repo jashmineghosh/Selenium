@@ -1,18 +1,15 @@
 package basics;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.Set;
-
+/*
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.os.WindowsUtils;
 
-import com.google.common.io.Files;
+import java.io.File;
+import java.io.IOException;
+import java.util.Set;
 
 public class Wincookiescreenshot {
 
@@ -38,3 +35,4 @@ public class Wincookiescreenshot {
 	
 
 }
+*/

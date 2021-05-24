@@ -1,11 +1,11 @@
 package basics;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.util.List;
 
 public class Calender {
 //in this prg we are not hard-coding by selecting the xpath of the date
